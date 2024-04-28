@@ -2,7 +2,7 @@
 
 This Python script creates an animated visualization of two vectors and their projection.
 
-To run the animation, simply execute the script `vector_animation.py`. The animation will be displayed in a Matplotlib window.
+To run the animation, simply execute the script `dot_product.py`. The animation will be displayed in a Matplotlib window.
 
 ## Dependencies
 
