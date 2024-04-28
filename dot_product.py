@@ -34,7 +34,7 @@ def update(frame):
     # Update the plot
     ax.clear()
     
-    # Create arrow-shaped vectors
+    # add pointed vector
     arrow_vec1 = FancyArrowPatch((0, 0), (vec1[0], vec1[1]), mutation_scale=20, color='r', arrowstyle='-|>')
     arrow_vec2 = FancyArrowPatch((0, 0), (vec2[0], vec2[1]), mutation_scale=20, color='b', arrowstyle='-|>')
     
