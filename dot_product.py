@@ -19,7 +19,7 @@ def update(frame):
     vec2 = [np.cos(np.radians(angle)), np.sin(np.radians(angle))]
     
     # Define the length of the first vector
-    length_vec1 = 1.5
+    length_vec1 = 0.8
     
     # Define the first vector (horizontal)
     vec1 = [length_vec1, 0]
