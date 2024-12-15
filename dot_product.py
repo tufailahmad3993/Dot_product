@@ -18,20 +18,20 @@ def update(frame):
     angle = frame * 2  # Increment angle by 2 degrees per frame
     vec2 = [np.cos(np.radians(angle)), np.sin(np.radians(angle))]
     
-    # Define the length of the first vector
+    # define the length of the first vector
     length_vec1 = 0.8
     
-    # Define the first vector (horizontal)
+    # defining the first vector (horizontal)
     vec1 = [length_vec1, 0]
     
-    # Calculate the angle between the vectors
+    # calculate the angle between the vectors
     angle_between = VectorCalculator.calculate_angle_between_vectors(vec1, vec2)
     
-    # Calculate the projection of vec2 onto vec1
+    # calculate the projection of vec2 onto vec1
     projection_length = np.dot(vec1, vec2) / np.linalg.norm(vec1)
     projection = (projection_length / np.linalg.norm(vec1)) * np.array(vec1)
     
-    # Update the plot
+    # update the plot
     ax.clear()
     
     # add pointed vector
